@@ -1,0 +1,18 @@
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.supports_gestures=false
+ro.vendor.fingerprint.force_calibrate=true
+ro.vendor.fingerprint.request_touch_event=true
+ro.vendor.fingerprint.cancel_on_enroll_completion=true
+
+# Audio
+ro.config.vc_call_vol_default=4
+ro.config.vc_call_vol_steps=11
+
+ro.hardware.chipname=MT6769T
+
+# Netflix
+ro.netflix.bsp_rev=MTK6769-33944-1
+
+#DPI
+ro.sf.lcd_density=300
