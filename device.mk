@@ -35,5 +35,10 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
+# AAPT Configuration for high-density assets
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+TARGET_SCREEN_DENSITY := 300
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a22/a22-vendor.mk)
